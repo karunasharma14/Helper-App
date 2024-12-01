@@ -32,12 +32,13 @@ class AboutPage extends StatelessWidget {
             SizedBox(height: 10),
             Text(
               'Our mission is to connect people with the best helpers available. '
-              'We provide a platform to find and book helpers for various tasks.',
+              'We provide a platform to find and book helpers for various tasks.'
+              'Our Application helps small scale users to get job easily and helps in their development too.',
               style: Theme.of(context).textTheme.bodySmall,
             ),
             SizedBox(height: 10),
             Text('Why Choose Us?', style: Theme.of(context).textTheme.headlineSmall),
-            Text('• Trusted Helpers\n• Easy Booking\n• Secure Payments\n• Wide Range of Services'),
+            Text('• Trusted Helpers\n• Easy Booking\n• Secure Payments\n• Wide Range of Services\n• Lots of helpers\n• Variety of helpers'),
           ],
         ),
       ),

@@ -35,13 +35,13 @@ class ProfilePage extends StatelessWidget {
               SizedBox(height: 20),
               // Name
               Text(
-                'John Doe',
+                'Name of the User',
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 10),
               // Age
               Text(
-                'Age: 28',
+                'Age: 25',
                 style: TextStyle(fontSize: 16, color: Colors.grey[700]),
               ),
               SizedBox(height: 20),
@@ -55,16 +55,16 @@ class ProfilePage extends StatelessWidget {
               // Address
               ListTile(
                 leading: Icon(Icons.location_on, color: Colors.blue),
-                title: Text('123 Helper Street, Helping City, HC 56789'),
+                title: Text('123 abc Street, ABC City, Delhi 1100XX'),
               ),
               // Contact Info
               ListTile(
                 leading: Icon(Icons.phone, color: Colors.green),
-                title: Text('+1 234 567 890'),
+                title: Text('+91 XXXXXXXXXX'),
               ),
               ListTile(
                 leading: Icon(Icons.email, color: Colors.red),
-                title: Text('johndoe@example.com'),
+                title: Text('username@gmail.com'),
               ),
             ],
           ),

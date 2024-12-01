@@ -97,10 +97,10 @@ class HomePage extends StatelessWidget {
               children: [
                 Text('Helper Name', style: Theme.of(context).textTheme.headlineSmall),
                 SizedBox(height: 5),
-                Text('Cost: \$15/hr', style: TextStyle(color: Colors.blueGrey)),
+                Text('Cost: \Rs.250/hr', style: TextStyle(color: Colors.blueGrey)),
                 SizedBox(height: 5),
                 Text(
-                  'Description of the helper\'s skills.',
+                  'About the helper an their skills. Contact Info and other Information.',
                   style: TextStyle(fontSize: 12, color: Colors.grey[600]),
                   textAlign: TextAlign.center,
                 ),
